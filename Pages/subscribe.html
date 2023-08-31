@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/subscribe.css">
+    <title>Subscribe</title>
+
+    <script src="/js/validation.js" defer></script>
+</head>
+<body>
+
+    <nav>
+        <img src="/assets/logo.png" alt="logo" class="logo">
+        <div class="center-item">
+            <ul class="nav-items">
+                <li><a href="/Pages/home.html">Home</a></li>
+                <li><a href="/Pages/shoes.html">Shoes</a></li>
+                <li><a href="/Pages/aboutUs.html">About Us</a></li>
+                <li><a href="/Pages/events.html">Events</a></li>
+            </ul>
+        </div>
+        <div class="right-button">
+            <a href=""><button class="subs">Subscribe</button></a>
+        </div>
+    </nav>
+
+    <div class="subscribe">
+        
+        <div class="form-content">
+            <h2>Subscribe Now!</h2>
+            <form action="GET" id="form">
+                <div class="input-content">
+                    <input name="name" type="text" id="name" required>
+                    <span>Name</span>
+                    <br>
+                </div>
+
+                <div class="input-content">
+                    <input name="email" type="text" id="email" required>
+                    <span>Email</span>
+                    <br>
+                </div>
+
+                <div class="input-content">
+                    <input name="phone" type="text" id="phone" required>
+                    <span>Phone Number</span>
+                    <br>
+                </div>
+
+                <div class="input-content">
+                    <select name="country" id="country">
+                        <option value="default">Select a Country</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Japan">Japan</option>
+                        <option value="China">China</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Korsel">Korea Selatan</option>
+                        <option value="Amerika">Amerika</option>
+                    </select>
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox" id="terms">
+                    <label>Agree With Terms and Conditions</label>
+                </div>
+
+                <p id="message"></p>
+
+                <div class="btn-submit">
+                    <button type="submit" class="btn">Submit</button>
+                </div> 
+                
+            </form>
+        </div>
+    </div>
+
+    
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <h3>FootLockRE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Qui ipsa delectus reprehenderit possimus obcaecati totam? amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright @2023 <a href="https://www.instagram.com/xrynzzz/"><span>Febrico Jonata</span></a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

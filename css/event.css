@@ -1,0 +1,70 @@
+.event h2{
+    margin: 20px;
+}
+
+.event{
+    text-align: center;
+}
+
+.event span{
+    color: #82B9D3;
+}
+
+.event-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/nmixx-bg.png');
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.event-hero{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.event-card-parent{
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.event-card{
+    /* background-color: #82B9D3; */
+    margin-left: 12px;
+    width: 48%;
+    border-radius: 12px;
+    cursor: pointer;
+    border-color: #82B9D3;
+    border-style: solid;
+}
+
+.event-card img{
+    padding: 15px;
+    width: 100%;
+}
+
+.event-card h4{
+    margin-bottom: 15px;
+}
+
+.event-card:hover {
+    box-shadow: 0 12px 20px 0 rgba(7, 7, 7, 0.2);
+}
+
+@media only screen and (max-width: 786px) {
+    .event-hero{
+        background-size: 100%;
+        height: 300px;
+    }
+
+    .event-card{
+        width: 100%;
+    }
+}
